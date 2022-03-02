@@ -68,6 +68,12 @@ class App extends React.Component {
       isSaveButtonDisabled: true,
       cardList: [...oldState.cardList, card],
     }));
+
+    if (cardTrunfo) {
+      this.setState({
+        hasTrunfo: true,
+      });
+    }
   }
 
   validateButton = () => {
