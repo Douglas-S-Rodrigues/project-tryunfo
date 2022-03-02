@@ -35,7 +35,7 @@ class App extends React.Component {
   }
 
   onSaveButtonClick() {
-    const { 
+    const {
       cardName,
       cardDescription,
       cardImage,
