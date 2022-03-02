@@ -77,7 +77,6 @@ class Form extends React.Component {
           ? (<p>Você já tem um Super Trunfo em seu baralho</p>)
           : (
             <label htmlFor="s-trunfo">
-              Super Trunfo:
               <input
                 type="checkbox"
                 data-testid="trunfo-input"
