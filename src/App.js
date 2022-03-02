@@ -35,7 +35,8 @@ class App extends React.Component {
   }
 
   onSaveButtonClick() {
-    const { cardName,
+    const { 
+      cardName,
       cardDescription,
       cardImage,
       cardRare,
@@ -44,7 +45,8 @@ class App extends React.Component {
       cardAttr3,
       cardTrunfo } = this.state;
 
-    const card = { cardName,
+    const card = {
+      cardName,
       cardDescription,
       cardImage,
       cardRare,
